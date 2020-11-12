@@ -1,6 +1,6 @@
-# Node.jsセットアップ手順書
+# jsセットアップ手順書
 
-## インストール
+## Node.js
 
 [参照](https://github.com/nodenv/nodenv#basic-github-checkout)
 
@@ -14,4 +14,10 @@ git clone https://github.com/nodenv/nodenv-update.git ~/.nodenv/plugins/nodenv-u
 # ターミナルを再起動
 # 全部OKならOK
 curl -fsSL https://github.com/nodenv/nodenv-installer/raw/master/bin/nodenv-doctor | bash
+```
+
+## TypeScript
+
+```bash
+npm install -g typescript
 ```
