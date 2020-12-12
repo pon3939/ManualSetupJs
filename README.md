@@ -6,8 +6,8 @@
 
 ```bash
 git clone https://github.com/nodenv/nodenv.git ~/.nodenv
-echo 'export PATH="$HOME/.nodenv/bin:$PATH"' >> ~/.bashrc
-echo 'eval "$(nodenv init -)"' >> ~/.bashrc
+echo 'export PATH="$HOME/.nodenv/bin:$PATH"' >> ~/.zshrc
+echo 'eval "$(nodenv init -)"' >> ~/.zshrc
 git clone https://github.com/nodenv/node-build.git ~/.nodenv/plugins/node-build
 git clone https://github.com/nodenv/nodenv-update.git ~/.nodenv/plugins/nodenv-update
 
