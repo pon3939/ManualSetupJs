@@ -26,3 +26,10 @@ nodenv install {最新バージョン}
 nodenv rehash
 nodenb global {最新バージョン}
 ```
+
+## yarn
+
+```bash
+npm install -g yarn
+echo 'export PATH="$(yarn global bin):$PATH"' >> ~/.zshrc
+```
