@@ -15,9 +15,3 @@ git clone https://github.com/nodenv/nodenv-update.git ~/.nodenv/plugins/nodenv-u
 # 全部OKならOK
 curl -fsSL https://github.com/nodenv/nodenv-installer/raw/master/bin/nodenv-doctor | bash
 ```
-
-## TypeScript
-
-```bash
-npm install -g typescript
-```
