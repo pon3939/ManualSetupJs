@@ -1,6 +1,6 @@
 # jsセットアップ手順書
 
-## Node.js
+## nodenv
 
 [参照](https://github.com/nodenv/nodenv#basic-github-checkout)
 
@@ -14,4 +14,15 @@ git clone https://github.com/nodenv/nodenv-update.git ~/.nodenv/plugins/nodenv-u
 # ターミナルを再起動
 # 全部OKならOK
 curl -fsSL https://github.com/nodenv/nodenv-installer/raw/master/bin/nodenv-doctor | bash
+```
+
+## Node.js
+
+グローバルに最新のNode.jsをインストール
+
+```bash
+nodenv install -l
+nodenv install {最新バージョン}
+nodenv rehash
+nodenb global {最新バージョン}
 ```
